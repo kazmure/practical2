@@ -187,6 +187,7 @@ char** enter_password()
 char** enter_phone_number()
 {
 	const short int MAX_PASSWORD_LENGTH = 16;//38 000 000 00 00
+
 	char* phone_number = new char[MAX_PASSWORD_LENGTH];
 
 	wcout << L"Enter phone number:" << endl;
@@ -205,6 +206,7 @@ char** enter_real_age()
 char** enter_date()
 {
 	const short int MAX_PASSWORD_LENGTH = 11;//11 max  01.01.2000
+
 	char* date = new char[MAX_PASSWORD_LENGTH];
 
 	wcout << L"Enter date:" << endl;
@@ -214,6 +216,8 @@ char** enter_date()
 char** enter_age_hero()
 {
 	const short int MAX_PASSWORD_LENGTH = 4;//3 max
+
+
 	char* age_hero = new char[MAX_PASSWORD_LENGTH];
 
 	wcout << L"Enter age hero:" << endl;
